@@ -2,7 +2,7 @@ import PyPDF2
 import spacy
 import docx
 
-from spacy.cil import download
+from spacy.cli import download
 try:
     nlp = spacy.load("en_core_web_sm")
 except:
