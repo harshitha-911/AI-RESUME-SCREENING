@@ -4,9 +4,9 @@ import pandas as pd
 from parser import extract_text, extract_skills, calculate_ats_score
 from matcher import match_jobs
 
-st.set_page_config(page_title="AI Resume Screener", layout="wide")
+st.set_page_config(page_title="AI-Powered Resume Screening", layout="wide")
 
-st.markdown("<h1 style='text-align: center; color: #4CAF50;'> AI Resume Screening System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #4CAF50;'> AI-Powered Resume Screening</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
 BASE_JOB_DESC = "python machine learning data analysis software development"
