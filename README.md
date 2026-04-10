@@ -4,7 +4,6 @@
 https://ai-resume-screening-1.streamlit.app/
 
 ## 📸 Screenshots
-## 📸 Screenshots
 
 ### 🏠 Home Page
 ![Home](screenshots/home.png)
@@ -12,7 +11,7 @@ https://ai-resume-screening-1.streamlit.app/
 ### 📄 Single Resume Analysis
 ![Single](screenshots/single.png)
 
-### 📊 Multiple Resume Comparison
+### 📂 Multiple Resume Comparison
 ![Multiple](screenshots/multiple.png)
 
 ## 📌 Overview
