@@ -1,5 +1,20 @@
 # 🚀 AI-Powered Resume Screening & Job Recommendation System
 
+## 🔗 Live Demo  
+https://ai-resume-screening-1.streamlit.app/
+
+## 📸 Screenshots
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](screenshots/home.png)
+
+### 📄 Single Resume Analysis
+![Single](screenshots/single.png)
+
+### 📊 Multiple Resume Comparison
+![Multiple](screenshots/multiple.png)
+
 ## 📌 Overview
 
 This project is an **AI-based Resume Screening System** that analyzes resumes and recommends the most suitable job roles based on skills and content.
