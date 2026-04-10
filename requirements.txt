@@ -1,5 +1,8 @@
 streamlit
 pandas
+numpy
+PyPDF2
+nltk
 scikit-learn
 spacy
-PyPDF2
+python-docx
