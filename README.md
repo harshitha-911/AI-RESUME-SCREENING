@@ -91,30 +91,108 @@ AI-Resume-Screener/
 
 ## ▶️ How to Run the Project
 
-### 1️⃣ Clone Repository
+
+Follow these steps to set up and run the project from scratch:
+
+---
+
+### 🔹 Step 1: Install Prerequisites
+
+Make sure you have the following installed:
+
+* Python (version 3.8 or above)
+* Git
+
+Check installation:
+
+```bash
+python --version
+git --version
+```
+
+---
+
+### 🔹 Step 2: Clone the Repository
+
+Download the project to your local machine:
 
 ```bash
 git clone https://github.com/your-username/AI-Resume-Screener.git
 cd AI-Resume-Screener
 ```
 
-### 2️⃣ Install Dependencies
+---
+
+### 🔹 Step 3: Create Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+* **Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+* **Mac/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### 🔹 Step 4: Install Dependencies
+
+Install all required libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run Application
+---
+
+### 🔹 Step 5: Run the Application
+
+Start the Streamlit app:
 
 ```bash
 streamlit run app.py
 ```
 
-### 4️⃣ Open in Browser
+---
 
-Streamlit will provide a local URL (e.g., http://localhost:8501)
+### 🔹 Step 6: Open in Browser
+
+After running, you will see a local URL like:
+
+```text
+http://localhost:8501
+```
+
+Open this link in your browser.
 
 ---
+
+### 🔹 Step 7: Use the Application
+
+* Upload a **single resume** (PDF/DOCX)
+* Or upload **multiple resumes (up to 100)**
+* View ATS score, skills, job matches, and graphs
+
+---
+
+## ⚠️ Important Notes
+
+* Supported formats: **PDF, DOCX**
+* `.doc` files have limited support
+* Ensure internet connection for first-time library downloads
+
+---
+
 
 ## 📊 Output Features
 
