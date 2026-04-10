@@ -2,7 +2,12 @@ import PyPDF2
 import spacy
 import docx
 
-nlp = spacy.load("en_core_web_sm")
+from spacy.cil import download
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 SKILLS_DB = [
     "python","java","c++","machine learning","deep learning","nlp",
